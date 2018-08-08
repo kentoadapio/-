@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.signal_container{
+  /* text-align: center; */
+  margin: 50px auto;
+  width: 600px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 50px;
+}
+
+.circle{
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  background-color: #000;
+  border-radius: 90px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left:10px;
+  background-color:
+  /* overflow: hidden; */
+}
+
+.blue{
+  background-color: #00f
+}
+
+.yellow{
+  background-color: #ff0;
+}
+
+.red{
+  background-color: #f00;
+}
+
+.button_container{
+  width: 280px;
+  height: 430px;
+  background-color: #ff0;
+  border-radius: 20px;
+  float: right;
+  margin-right: 50px
+}
+
+#instruction{
+  font-size: 22px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  margin: 50px auto;
+  user-select: none;
+}
+
+/* .button{
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  margin: 100px auto;
+  cursor: pointer;
+} */
+
+#button{
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  margin: 100px auto;
+  cursor: pointer;
+}
