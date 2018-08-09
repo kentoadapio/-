@@ -4,14 +4,16 @@
   // console.log('sample');
 
   // var btn=document.getElementsByClassName('button');
-  var btn=document.getElementById('button');
-  var inst=document.getElementById('instruction');
-  var blue=document.getElementById('blue');
-  var yellow=document.getElementById('yellow');
-  var red=document.getElementById('red');
-  var isRunning=false;
+  const btn=document.getElementById('button');
+  const inst=document.getElementById('instruction');
+  const blue=document.getElementById('blue');
+  const yellow=document.getElementById('yellow');
+  const red=document.getElementById('red');
+  let isRunning=false;
 
-  function toblue(){
+  blue.classList.add('blue');
+
+  function toBlue(){
       yellow.classList.remove('yellow');
       red.classList.add('red');
       setTimeout(function(){
@@ -23,14 +25,14 @@
   }
 
   btn.addEventListener('click',function(){
-    if(isRunning===true){
+    if(isRunning){
       return;
     }
     isRunning=true;
     blue.classList.remove('blue');
     yellow.classList.add('yellow');
     inst.textContent='';
-    setTimeout(toblue,3000);
+    setTimeout(toBlue,3000);
     // setTimeout(function(){
     //   yellow.classList.remove('yellow');
     //   red.classList.add('red');
